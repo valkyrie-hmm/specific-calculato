@@ -8,8 +8,6 @@ double pi = atan(1) * 4;
 int c0, c1, c2, c3, c4;
 int e;
 
-//TODO : implement logarithme
-
 void empty_input(void) /* simple helper-function to empty stdin */  //(taken from stack overflow because im not a smart)
 {
     int c = getchar();
@@ -351,7 +349,7 @@ int main()
     
     printf("Only numerical input is valid when selecting an option; too lazy to implement char intput.\n");
     printf("Input as character will make the program loop forever, if it happens, press ctrl + c to stop the program.\n");
-    printf("Enter (0) to exit or any other number...\n");
+    printf("Enter (0) to exit or any other number to continue...\n");
     scanf("%d", &c0);
     
     if (c0 == 0)
