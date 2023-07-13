@@ -1,3 +1,5 @@
+// This is a 'simple' calculator for a few specific things that i used during last year of high school
+// YES, the sin cos tan part is very bloated and could be remade but im lazy
 #include <iostream>
 #include <math.h>
 
@@ -158,7 +160,15 @@ void sct(void)
     int c0, c1, c2, c3, c4;
     double pi = atan(1) * 4;
     double o, an, m, rd; //rd(Radians to degrees)
-    printf("\n\nFind ;\n(1)length\n(2)angle\n");
+    printf("      /|\n");
+    printf("     / |\n");
+    printf("    /  |\n");
+    printf("   /   |\n");
+    printf("  /    |\n");
+    printf(" /     |\n");
+    printf("/2_____|\n");
+    printf("    l   \n");
+    printf("Find;\n (1)length\n (2)angle\n");
     scanf("%d", &c2);
     if (c2 == 1) //find length
     {
