@@ -1,5 +1,3 @@
-// This is a 'simple' calculator for a few specific things that i used during last year of high school
-// YES, the sin cos tan part is very bloated and could be remade but im lazy
 #include <stdio.h>
 #include <math.h>
 
