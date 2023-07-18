@@ -154,141 +154,32 @@ void heron(void)
 }
 void sct(void)
 {
-    double a, b, c, h, k, z, y, x;
-    int c0, c1, c2, c3, c4;
-    double pi = atan(1) * 4;
-    double o, an, m, rd; //rd(Radians to degrees)
-    printf("      /|\n");
-    printf("     / |\n");
-    printf("    /  |\n");
-    printf("   /   |\n");
-    printf("  /    |\n");
-    printf(" /     |\n");
-    printf("/2_____|\n");
-    printf("    l   \n");
-    printf("Find;\n (1)length\n (2)angle\n");
-    scanf("%d", &c2);
-    if (c2 == 1) //find length
-    {
-        printf("\n\nUse \n(1)Sin,\n(2)Cos,\n(3)Tan\n");
-        scanf("%d", &c3);
-        if (c3 == 1) //sin
-        {
-            printf("\nFind ;\n(1)Opposite,\n(2)Hypotenuse?\n");
-            scanf("%d", &c4);
-            if (c4 == 1) // opposite
-            {
-                printf("Enter hypotenuse and angle\n");
-                printf("Hyp: ");
-                scanf("%lf", &h);
-                printf("angle: ");
-                scanf("%lf", &an);
-                rd = an * pi / 180;
-                x = h * sin(rd);
-                printf("%g\n", x);
-            }
-            else if (c4 == 2)
-            {
-                printf("Enter Opposite and angle\n");
-                printf("O: ");
-                scanf("%lf", &o);
-                printf("angle: ");
-                scanf("%lf", &an);
-                rd = an * pi / 180;
-                x = o / sin(rd);
-                printf("%g\n", x);
-            }
-        }
-        else if (c3 == 2) //cos
-        {
-            printf("\nFind ;\n(1)Adjacent,\n(2)Hypotenuse?\n");
-            scanf("%d", &c4);
-            if (c4 == 1) // opposite
-            {
-                printf("Enter hypotenuse and angle\n");
-                printf("Hyp: ");
-                scanf("%lf", &h);
-                printf("angle: ");
-                scanf("%lf", &an);
-                rd = an * pi / 180;
-                x = h * cos(rd);
-                printf("%g\n", x);
-            }
-            else if (c4 == 2)
-            {
-                printf("Enter Adjacent and angle\n");
-                printf("O: ");
-                scanf("%lf", &a);
-                printf("angle: ");
-                scanf("%lf", &an);
-                rd = an * pi / 180;
-                x = a / cos(rd);
-                printf("%g\n", x);
-            }
-        }
-        else if (c3 == 3) //tan
-        {
-            printf("\nFind ;\n(1)Adjacent,\n(2)Opposite?\n");
-            scanf("%d", &c4);
-            if (c4 == 1) // opposite
-            {
-                printf("Enter Opposite and angle\n");
-                printf("Hyp: ");
-                scanf("%lf", &o);
-                printf("angle: ");
-                scanf("%lf", &an);
-                rd = an * pi / 180;
-                x = o / tan(rd);
-                printf("%g\n", x);
-            }
-            else if (c4 == 2)
-            {
-                printf("Enter Adjacent and angle\n");
-                printf("O: ");
-                scanf("%lf", &a);
-                printf("angle: ");
-                scanf("%lf", &an);
-                rd = an * pi / 180;
-                x = a * tan(rd);
-                printf("%g\n", x);
-            }
-        }
-    }
-    else if (c2 == 2)
-    {
-        printf("Use \n(1)Sin, \n(2)Cos or \n(3)Tan \n");
-        scanf("%d", &c3);
-        if (c3 == 1) //sin
-        {
-            printf("Opposite : ");
-            scanf("%lf", &o);
-            printf("Hypotenuse : ");
-            scanf("%lf", &h);
-            x = asin(o / h);
-            rd = x * 180 / pi;
-            printf("%g", rd);
-        }
-        else if (c3 == 2) // cos
-        {
-            printf("Adjacent : ");
-            scanf("%lf", &a);
-            printf("Hypotenuse : ");
-            scanf("%lf", &h);
-            x = acos(a / h);
-            rd = x * 180 / pi;
-            printf("%g", rd);
-        }
-        else if (c3 == 3) // tan
-        {
-            printf("Adjacent : ");
-            scanf("%lf", &a);
-            printf("Opposite : ");
-            scanf("%lf", &o);
-            x = atan(o / a);
-            rd = x * 180 / pi;
-            printf("%g", rd);
-        }
-    }
+  //make a sin cos tan thingy here
+  
+  double a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z;
+  double c0,c1,c2,c3,c4,c5,c6,c7,c8,c9; //for choices
+  
+  printf("what do you want to use?\nSin(1), Cos(2), tan(3)");
+  scanf("%lf", &c0);
+  
+  if ( c0 == 1 )
+  {
+    printf("sin\n");
+     
+  }
+  else if ( c0 == 2 )
+  {
+    printf("cos\n");
+  }
+  else if ( c0 == 3 )
+  {
+    printf("tan\n");
+  }
+
+
+
+
+
 }
 void T(void)
 {
