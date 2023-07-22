@@ -5,4 +5,4 @@ specific calculator of functions and other stuff that i used throughout the last
 
 # To use:
 - Simply compile ( use g++ instead of gcc if you encounter errors such as undefined math function like pow, tan, etc )
-- kalk is the compiled bin, sometimes it is not updated so please be cautious
+- kalk is the compiled bin ( only if running linux as windows doesn't support this file format, sometimes it is not updated so please be cautious
